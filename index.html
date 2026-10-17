@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A Letter to Shifa 💌</title>
+  <meta name="description" content="A heartfelt, sincere apology for someone very special."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Floating Hearts Background -->
+  <div class="floating-hearts" id="floating-hearts"></div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="tag-line reveal">— a message from the heart</div>
+      <h1 class="hero-title reveal">
+        <span class="word">Dear</span>
+        <span class="word highlight">Shifa</span>
+        <span class="word">…</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Some mistakes can't be undone with words alone — but words are all I have right now, and I'm using every one of them to tell you how truly sorry I am.
+      </p>
+      <button class="cta-btn reveal" id="open-letter-btn">
+        <span class="btn-icon">💌</span>
+        <span>Open My Letter</span>
+        <span class="btn-glow"></span>
+      </button>
+    </div>
+
+    <div class="hero-visual">
+      <div class="letter-wrapper reveal">
+        <img src="sorry_letter_1792218880797.png" alt="A heartfelt letter" class="letter-img" id="letter-img"/>
+        <div class="letter-glow"></div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ===================== TIMELINE SECTION ===================== -->
+  <section class="section timeline-section" id="moments">
+    <div class="section-inner">
+      <div class="section-tag reveal">— what happened</div>
+      <h2 class="section-title reveal">Where I Went Wrong</h2>
+      <p class="section-sub reveal">I want to own every mistake, clearly and honestly.</p>
+
+      <div class="timeline">
+        <div class="timeline-item reveal" data-delay="0">
+          <div class="timeline-dot">
+            <span>1</span>
+          </div>
+          <div class="timeline-card">
+            <div class="card-icon">😔</div>
+            <h3>I Said or Did Something Hurtful</h3>
+            <p>Whether it was my words, my tone, or my actions — I hurt you, and that's entirely on me. You deserved so much better in that moment.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-delay="100">
+          <div class="timeline-dot">
+            <span>2</span>
+          </div>
+          <div class="timeline-card">
+            <div class="card-icon">🪞</div>
+            <h3>I Reflected &amp; I'm Ashamed</h3>
+            <p>Looking back, I can clearly see how wrong I was. I've been reflecting on it, and the guilt has been sitting heavy on my chest ever since.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-delay="200">
+          <div class="timeline-dot">
+            <span>3</span>
+          </div>
+          <div class="timeline-card">
+            <div class="card-icon">🤍</div>
+            <h3>I Never Wanted to Hurt You</h3>
+            <p>Not even for a second. If I could go back and undo it, I would in a heartbeat. Your happiness matters more to me than I ever showed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LETTER MODAL ===================== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="letter-modal">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-header">
+        <div class="wax-seal">💌</div>
+        <h2>My Letter to You</h2>
+        <div class="modal-divider"></div>
+      </div>
+      <div class="modal-body">
+        <p class="letter-greeting">Dearest Shifa,</p>
+        <p>
+          I'm writing this because I owe you more than just a sorry — I owe you the truth. I made a mistake yesterday, and I know that what I did or said caused you pain. That fact alone breaks my heart.
+        </p>
+        <p>
+          You are one of the most genuine, kind-hearted people I know. And the fact that someone like you was hurt because of me — because of <em>my</em> behaviour — is something I can't just brush aside. I won't.
+        </p>
+        <p>
+          I'm not asking you to forget. I'm not even asking you to forgive me right now, if you're not ready. I just need you to know that I am <strong>genuinely, deeply sorry</strong>. Not the kind of sorry that wants things to go back to normal quickly — the kind of sorry that comes from truly understanding that I was wrong.
+        </p>
+        <p>
+          You deserve to be treated with respect, warmth, and care — every single day. I failed at that yesterday, and I carry full responsibility for it.
+        </p>
+        <p>
+          I value you. I value our bond. And I promise to do better — not just say it, but <em>show it</em>.
+        </p>
+        <p class="letter-sign">With all the sincerity in my heart,</p>
+        <p class="letter-name">Your friend 🤍</p>
+      </div>
+      <div class="modal-footer">
+        <div class="petal-row">
+          <span>🌸</span><span>🌷</span><span>🌸</span><span>🌷</span><span>🌸</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== PROMISE SECTION ===================== -->
+  <section class="section promise-section" id="promises">
+    <div class="section-inner">
+      <div class="section-tag reveal">— moving forward</div>
+      <h2 class="section-title reveal">My Promises to You</h2>
+      <p class="section-sub reveal">Words mean nothing without action. Here's what I commit to.</p>
+
+      <div class="promises-grid">
+        <div class="promise-card reveal" data-delay="0">
+          <div class="promise-icon">🛡️</div>
+          <h3>I Will Never Intentionally Hurt You</h3>
+          <p>Your feelings are valid and important. I'll always think before I act or speak around you.</p>
+        </div>
+        <div class="promise-card reveal" data-delay="100">
+          <div class="promise-icon">👂</div>
+          <h3>I Will Listen More</h3>
+          <p>I'll give your words the weight and attention they deserve — always.</p>
+        </div>
+        <div class="promise-card reveal" data-delay="200">
+          <div class="promise-icon">🤝</div>
+          <h3>I Will Be There For You</h3>
+          <p>Through the good and the bad — I'll show up the way a true friend should.</p>
+        </div>
+        <div class="promise-card reveal" data-delay="300">
+          <div class="promise-icon">💬</div>
+          <h3>I Will Communicate Better</h3>
+          <p>Instead of letting things escalate, I'll talk — honestly and respectfully — every time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CLOSING SECTION ===================== -->
+  <section class="section closing-section" id="closing">
+    <div class="closing-inner">
+      <div class="closing-emoji reveal">🌸</div>
+      <h2 class="closing-title reveal">I'm Sorry, Shifa.</h2>
+      <p class="closing-text reveal">
+        From the bottom of my heart — I truly am. You matter to me more than I sometimes show, and that's something I'll always work on. Thank you for being you.
+      </p>
+      <div class="hearts-row reveal">
+        <span class="beat-heart">❤️</span>
+        <span class="beat-heart" style="animation-delay:0.2s">🧡</span>
+        <span class="beat-heart" style="animation-delay:0.4s">💛</span>
+        <span class="beat-heart" style="animation-delay:0.6s">💚</span>
+        <span class="beat-heart" style="animation-delay:0.8s">💙</span>
+        <span class="beat-heart" style="animation-delay:1s">💜</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Made with 💙 &amp; a lot of guilt — just for Shifa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
